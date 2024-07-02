@@ -8,6 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Isar.initializeIsarCore();
   await initDependencies();
+
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
