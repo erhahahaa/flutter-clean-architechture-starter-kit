@@ -243,7 +243,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links/packages/flutter",
+      "rootUri": "file:///usr/local/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -261,7 +261,7 @@
     },
     {
       "name": "flutter_localizations",
-      "rootUri": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links/packages/flutter_localizations",
+      "rootUri": "file:///usr/local/flutter/packages/flutter_localizations",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -273,13 +273,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links/packages/flutter_test",
+      "rootUri": "file:///usr/local/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links/packages/flutter_web_plugins",
+      "rootUri": "file:///usr/local/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -573,7 +573,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///usr/local/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -728,10 +728,10 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-02T12:27:07.164973Z",
+  "generated": "2024-07-05T06:57:43.305643Z",
   "generator": "pub",
-  "generatorVersion": "3.4.0",
-  "flutterRoot": "file:///nix/store/iifw9ahj13qmhg6vjvl1ny1g6zb671ss-flutter-wrapped-3.22.0-sdk-links",
-  "flutterVersion": "3.22.0",
+  "generatorVersion": "3.4.3",
+  "flutterRoot": "file:///usr/local/flutter",
+  "flutterVersion": "3.22.2",
   "pubCache": "file:///home/morty/.pub-cache"
 }
