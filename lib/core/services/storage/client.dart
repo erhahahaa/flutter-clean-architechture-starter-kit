@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:isar/isar.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:starter_kit/core/core.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 class IsarClient {
   late Isar _isar;

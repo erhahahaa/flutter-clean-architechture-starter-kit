@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:starter_kit/core/core.dart';
-import 'package:starter_kit/feats/features.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 class UserRepoImpl implements UserRepo {
   final DioClient _remote;

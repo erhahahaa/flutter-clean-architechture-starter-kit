@@ -4,6 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oktoast/oktoast.dart';
 import 'package:starter_kit/core/core.dart';
+import 'package:starter_kit/di.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 class StarterKitApp extends StatelessWidget {
   const StarterKitApp({super.key});
@@ -19,7 +21,11 @@ class StarterKitApp extends StatelessWidget {
     ));
 
     return MultiBlocProvider(
-      providers: [],
+      providers: [
+        BlocProvider(
+          create: (context) => di<AuthCubit>(),
+        )
+      ],
       child: OKToast(
         child: ScreenUtilInit(
           designSize: const Size(0, 0),

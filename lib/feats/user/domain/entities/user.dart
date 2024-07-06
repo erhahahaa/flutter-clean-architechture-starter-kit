@@ -1,6 +1,8 @@
 import 'package:isar/isar.dart';
 
-part 'collections.g.dart';
+part 'user.g.dart';
+
+enum UserRole { superadmin, admin, user }
 
 @collection
 class UserEntity {
@@ -16,18 +18,5 @@ class UserEntity {
     this.email,
     this.name,
     this.role = UserRole.user,
-  });
-}
-
-enum UserRole { superadmin, admin, user }
-
-@collection
-class TokenEntity {
-  Id id = Isar.autoIncrement;
-  String? token;
-
-  TokenEntity({
-    this.id = Isar.autoIncrement,
-    this.token,
   });
 }

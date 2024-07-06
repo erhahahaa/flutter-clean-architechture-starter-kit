@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:starter_kit/core/core.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 part 'user.freezed.dart';
 part 'user.g.dart';

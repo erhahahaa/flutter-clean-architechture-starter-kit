@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:starter_kit/core/services/services.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 GetIt di = GetIt.instance;
 
@@ -18,7 +19,21 @@ Future<void> _initStore() async {
   di.registerSingleton<IsarClient>(IsarClient());
 }
 
-void _intiRepos() {}
+void _intiRepos() {
+  di.registerLazySingleton<AuthRepo>(
+    () => AuthRepoImpl(
+      di<DioClient>(),
+      di<IsarClient>(),
+    ),
+  );
+
+  di.registerLazySingleton<UserRepo>(
+    () => UserRepoImpl(
+      di<DioClient>(),
+      di<IsarClient>(),
+    ),
+  );
+}
 
 void _initUsecase() {}
 

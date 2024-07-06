@@ -1,1 +1,1 @@
-// TODO Implement this library.
+export 'package:starter_kit/feats/auth/domain/repos/auth.dart';

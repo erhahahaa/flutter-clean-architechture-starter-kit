@@ -5,6 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:isar/isar.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:starter_kit/core/core.dart';
+import 'package:starter_kit/feats/feats.dart';
 
 typedef JSONIConv<T> = T Function(dynamic response);
 
