@@ -28,7 +28,7 @@ class StarterKitApp extends StatelessWidget {
       ],
       child: OKToast(
         child: ScreenUtilInit(
-          designSize: const Size(0, 0),
+          designSize: const Size(344, 760),
           minTextAdapt: true,
           splitScreenMode: true,
           builder: (context, child) {
@@ -47,6 +47,9 @@ class StarterKitApp extends StatelessWidget {
                   child: child!,
                 );
               },
+              theme: lightTheme(context),
+              darkTheme: darkTheme(context),
+              themeMode: ThemeMode.system,
             );
           },
         ),
