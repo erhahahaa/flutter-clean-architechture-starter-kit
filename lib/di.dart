@@ -37,4 +37,12 @@ void _intiRepos() {
 
 void _initUsecase() {}
 
-void _initCubits() {}
+void _initCubits() {
+  di.registerFactory(
+    () => AuthCubit(),
+  );
+
+  di.registerFactory(
+    () => UserCubit(),
+  );
+}
